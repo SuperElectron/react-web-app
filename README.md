@@ -10,9 +10,9 @@
 * For build production files use `yarn build` (build to /build/ folder)
 
 ## Reference
-[https://facebook.github.io/create-react-app/](https://facebook.github.io/create-react-app/)
-[https://docs.cleanuitemplate.com/react/documentation/create-react-app/](cleanui)
-[https://ant.design/docs/react/introduce](Ant Design)
+[https://facebook.github.io/create-react-app/] 
+[https://docs.cleanuitemplate.com/react/documentation/create-react-app/] (cleanui)
+[https://ant.design/docs/react/introduce] (Ant Design)
 
 ## Configuring 
 * Configure Router: routes @ "src/router.js", and add page components @ "src/page/<name of route>" folder
