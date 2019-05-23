@@ -1,256 +1,77 @@
 import React from 'react'
-import { Button, Table } from 'antd'
 import { Helmet } from 'react-helmet'
-import PaymentCard from 'components/CleanUIComponents/PaymentCard'
-import PaymentAccount from 'components/CleanUIComponents/PaymentAccount'
-import PaymentTransaction from 'components/CleanUIComponents/PaymentTransaction'
-import ChartCard from 'components/CleanUIComponents/ChartCard'
 import Authorize from 'components/LayoutComponents/Authorize'
-import { tableData } from './data.json'
+import { Carousel, Card } from 'antd';
+import YouTube from 'react-youtube';
+import './index.css';
 
-// CONTENTS
-// air-bnb-superhost-picture.jpeg
-// okanagan-getwaways-vacation-rentals.jpeg
-// header-picture.jpeg
-// <body text>
-// https://youtu.be/cohNti8_SSo  (visit kelowna video)
+/*
+THINGS TO CHANGE
 
+video - onReady -> click and play...
+"WELCOME" -> center text and stylize
+Carousel background for "dots" -> change to dark so viewer can select or move it higher above picture/video
+
+*/
+
+// const img1 = "https://static.wixstatic.com/media/7d8a34_799910d376c349d6a3d0f24ec36426c1~mv2.jpg/v1/fill/w_320,h_223,al_c,q_80,usm_0.66_1.00_0.01/7d8a34_799910d376c349d6a3d0f24ec36426c1~mv2.jpg"
+const logo = "https://static.wixstatic.com/media/7d8a34_d013069531184d7f8a048120b8cefaa5~mv2.png/v1/crop/x_0,y_2,w_201,h_121/fill/w_281,h_169,al_c,lg_1,q_80/7d8a34_d013069531184d7f8a048120b8cefaa5~mv2.webp"
+// const img2 = "https://images.trvl-media.com/hotels/12000000/11650000/11649500/11649484/2e968f99_y.jpg"
+const img3 = "https://res.cloudinary.com/resortsandlodges/image/fetch/w_800,h_520,c_fill/https://media.travelnetsolutions.com/6eb0d4dc91d1c1cc717ce372271faa76/original.jpg"
+const img4 = "https://t-ec.bstatic.com/images/hotel/max1024x768/922/92268950.jpg"
 
 class DashboardHome extends React.Component {
   render() {
-    const tableColumns = [
-      {
-        title: 'Name',
-        dataIndex: 'name',
-        key: 'name',
-      },
-      {
-        title: 'Position',
-        dataIndex: 'position',
-        key: 'position',
-      },
-      {
-        title: 'Age',
-        dataIndex: 'age',
-        key: 'age',
-        sorter: (a, b) => a.age - b.age,
-      },
-      {
-        title: 'Office',
-        dataIndex: 'office',
-        key: 'office',
-      },
-      {
-        title: 'Date',
-        dataIndex: 'date',
-        key: 'date',
-      },
-      {
-        title: 'Salary',
-        dataIndex: 'salary',
-        key: 'salary',
-        sorter: (a, b) => a.salary - b.salary,
-      },
-    ]
+    const videoOptions = {
+      height: '576',
+      width: '1024',
+      playerVars: { // https://developers.google.com/youtube/player_parameters
+        autoplay: 0
+      }
+    };
 
     return (
       <Authorize roles={['admin']} redirect to="/dashboard/home">
         <Helmet title="Dashboard Home" />
-        <div className="utils__title utils__title--flat mb-3">
-          <strong className="text-uppercase font-size-16">Last Week Statistics</strong>
-        </div>
-        <div className="row">
-          <div className="col-xl-4">
-            <ChartCard
-              title="Transactions"
-              amount="1240"
-              chartProps={{
-                width: 120,
-                height: 107,
-                lines: [
-                  {
-                    values: [2, 11, 8, 14, 18, 20, 26],
-                    colors: {
-                      area: 'rgba(199, 228, 255, 0.5)',
-                      line: '#004585',
-                    },
-                  },
-                ],
-              }}
-            />
+        <Card className="container-fluid">
+          <div className="utils__title utils__title--flat mb-3">
+            <strong className="text-uppercase font-size-16">WELCOME</strong>
           </div>
-          <div className="col-xl-4">
-            <ChartCard
-              title="Income"
-              amount="$1,240.00"
-              chartProps={{
-                width: 120,
-                height: 107,
-                lines: [
-                  {
-                    values: [20, 80, 67, 120, 132, 66, 97],
-                    colors: {
-                      area: 'rgba(199, 228, 255, 0.5)',
-                      line: '#004585',
-                    },
-                  },
-                ],
-              }}
-            />
-          </div>
-          <div className="col-xl-4">
-            <ChartCard
-              title="Outcome"
-              amount="$240.56"
-              chartProps={{
-                width: 120,
-                height: 107,
-                lines: [
-                  {
-                    values: [42, 40, 80, 67, 84, 20, 97],
-                    colors: {
-                      area: 'rgba(199, 228, 255, 0.5)',
-                      line: '#004585',
-                    },
-                  },
-                ],
-              }}
-            />
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-lg-12">
-            <div className="card">
-              <div className="card-header">
-                <div className="utils__title">
-                  <strong>Recently Referrals</strong>
-                </div>
-                <div className="utils__titleDescription">
-                  Block with important Recently Referrals information
-                </div>
-              </div>
-              <div className="card-body">
-                <Table
-                  className="utils__scrollTable"
-                  scroll={{ x: '100%' }}
-                  columns={tableColumns}
-                  dataSource={tableData}
-                  pagination={false}
-                />
-              </div>
+          <Carousel dotPosition="top">
+            <div>
+              <img className="img-responsive image-resize" src={logo} alt="First slide" />
             </div>
-          </div>
-        </div>
-        <div className="utils__title utils__title--flat mb-3">
-          <strong className="text-uppercase font-size-16">Your Cards (3)</strong>
-          <Button className="ml-3">View All</Button>
-        </div>
-        <div className="row">
-          <div className="col-lg-4">
-            <PaymentCard
-              icon="lnr lnr-bookmark"
-              name="Matt Daemon"
-              number="4512-XXXX-1678-7528"
-              type="VISA"
-              footer="Expires at 02/20"
-              sum="$2,156.78"
-            />
-          </div>
-          <div className="col-lg-4">
-            <PaymentCard
-              icon="lnr lnr-bookmark"
-              name="David Beckham"
-              number="8748-XXXX-1678-5416"
-              type="MASTERCARD"
-              footer="Expires at 03/22"
-              sum="$560,245.35"
-            />
-          </div>
-          <div className="col-lg-4">
-            <PaymentCard
-              icon="lnr lnr-hourglass"
-              name="Mrs. Angelina Jolie"
-              number="6546-XXXX-1678-1579"
-              type="VISA"
-              footer="Locked Temporary"
-              sum="$1,467,98"
-            />
-          </div>
-        </div>
-        <div className="utils__title utils__title--flat mb-3">
-          <strong className="text-uppercase font-size-16">Your Accounts (6)</strong>
-          <Button className="ml-3">View All</Button>
-        </div>
-        <div className="row">
-          <div className="col-lg-6">
-            <PaymentAccount
-              icon="lnr lnr-inbox"
-              number="US 4658-1678-7528"
-              footer="Current month charged: $10,200.00"
-              sum="$2,156.78"
-            />
-          </div>
-          <div className="col-lg-6">
-            <PaymentAccount
-              icon="lnr lnr-inbox"
-              number="IBAN 445646-8748-4664-1678-5416"
-              footer="Current month charged: $1,276.00"
-              sum="$560,245.35"
-            />
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-lg-6">
-            <PaymentAccount
-              icon="lnr lnr-inbox"
-              number="US 4658-1678-7528"
-              footer="Current month charged: $10,200.00"
-              sum="$2,156.78"
-            />
-          </div>
-          <div className="col-lg-6">
-            <PaymentAccount
-              icon="lnr lnr-inbox"
-              number="IBAN 445646-8748-4664-1678-5416"
-              footer="Current month charged: $1,276.00"
-              sum="$560,245.35"
-            />
-          </div>
-        </div>
-        <div className="utils__title mb-3">
-          <strong className="text-uppercase font-size-16">Recent Transactions (167)</strong>
-          <Button className="ml-3">View All</Button>
-        </div>
-        <div className="row">
-          <div className="col-lg-12">
-            <PaymentTransaction
-              income={false}
-              amount="-$100.00"
-              info="US 4658-1678-7528"
-              footer="To AMAZON COPR, NY, 1756"
-            />
-            <PaymentTransaction
-              income
-              amount="+27,080.00"
-              info="4512-XXXX-1678-7528"
-              footer="To DigitalOcean Cloud Hosting, Winnetka, LA"
-            />
-            <PaymentTransaction
-              income={false}
-              amount="-100,000.00"
-              info="6245-XXXX-1678-3256"
-              footer="To Tesla Cars, LA, USA"
-            />
-            <div className="text-center pb-5">
-              <Button type="primary" className="width-200" loading>
-                Load More...
-              </Button>
+            <div>
+              <YouTube
+                videoId="cohNti8_SSo"
+                opts={videoOptions}
+                /*  eslint no-underscore-dangle: ["error", { "allowAfterThis": true }]  */
+                onReady={this._onReady}
+              />
             </div>
-          </div>
-        </div>
+            <div>
+              <img className="img-responsive image-resize" src={img3} alt="Third slide" />
+            </div>
+            <div>
+              <img className="img-responsive image-resize" src={img4} alt="Fourth slide" />
+            </div>
+          </Carousel>
+        </Card>
       </Authorize>
     )
   }
 }
 
 export default DashboardHome
+
+/*
+Thank-you for visiting OkanaganGetaways.com we are excited to offer you seasonal accommodations and vacation rentals in some of the best resorts Kelowna has to offer.
+
+Whether you want to be right downtown along the waterfront or in the trendy Mission we have something that will make your vacation or business trip to Kelowna great!
+
+Our suites are fully stocked with everything you need. We supply each unit with high quality linens and towels, we stock all the essentials like shampoo, conditioner, and soaps. In the kitchen we provide coffee and tea, sugar, salt, pepper, ketchup, mustard and cooking oil. The kitchen also has everything you need to prepare your own meals,
+
+you just bring your favorite foods.
+
+Our goal is to provide you with a stress free Okanagan Getaway at our amazing Resorts. The Vacation Rentals we provide are sparkling clean and are perfect for families or business professionals.  We hope that you will consider staying with us on your next trip to Kelowna.
+*/
