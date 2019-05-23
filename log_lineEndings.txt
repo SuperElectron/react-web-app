@@ -1,0 +1,408 @@
+warning: LF will be replaced by CRLF in src/assets/styles/Antd/import/backtop.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Antd/import/badge.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Antd/import/calendar.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Antd/import/cascader.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Antd/import/dropdown.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Antd/import/form.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Antd/import/input.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Antd/import/layout.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Antd/import/menu.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Antd/import/modal.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Antd/import/notification.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Antd/import/progress.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Antd/import/select.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Antd/import/slider.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Antd/import/spin.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Bootstrap/bootstrap.cleanui.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Bootstrap/import/alerts.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Bootstrap/import/badge.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Bootstrap/import/breadcrumb.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Bootstrap/import/buttons.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Bootstrap/import/card.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Bootstrap/import/carousel.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Bootstrap/import/collapse.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Bootstrap/import/dropdowns.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Bootstrap/import/forms.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Bootstrap/import/grid.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Bootstrap/import/modal.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Bootstrap/import/pagination.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Bootstrap/import/popovers.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Bootstrap/import/selectboxes.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Bootstrap/import/table.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Bootstrap/import/tabs.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Bootstrap/import/typography.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Bootstrap/import/utilities.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/CleanUI/cleanui.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/CleanUI/import/core.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/CleanUI/import/measurements.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Nprogress/nprogress.cleanui.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/Rcdrawer/rcdrawer.cleanui.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/styles/mixins.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/Avatar/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/Avatar/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/ChartCard/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/ChartCard/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/Chat/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/Chat/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/Donut/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/Donut/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/InfoCard/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/InfoCard/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/Invoice/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/PaymentAccount/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/PaymentAccount/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/PaymentCard/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/PaymentCard/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/PaymentTransaction/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/PaymentTransaction/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/PricingItem/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/PricingItem/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/ProductCard/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/ProductCard/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/ProfileHeadCard/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/ProfileHeadCard/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/ProgressCard/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/ProgressCard/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/ProgressGroup/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/ShortItemInfo/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/ShortItemInfo/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/SliderCard/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/SliderCard/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/UserCard/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/CleanUIComponents/UserCard/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/Authorize/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/Breadcrumbs/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/Breadcrumbs/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/Footer/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/Loader/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/Localization/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/Menu/MenuTop/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/Menu/MenuTop/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/Settings/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/Settings/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/TopBar/BitcoinPrice/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/TopBar/BitcoinPrice/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/TopBar/HomeMenu/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/TopBar/HomeMenu/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/TopBar/IssuesHistory/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/TopBar/IssuesHistory/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/TopBar/LanguageSelector/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/TopBar/LanguageSelector/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/TopBar/LiveSearch/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/TopBar/LiveSearch/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/TopBar/ProfileMenu/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/TopBar/ProfileMenu/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/TopBar/ProjectManagement/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/TopBar/ProjectManagement/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/TopBar/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/components/LayoutComponents/TopBar/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/global.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/layouts/Login/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/layouts/Main/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/layouts/Public/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/layouts/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/locales/en-US.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/locales/fr-FR.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/locales/ru-RU.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/locales/zh-CN.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/404.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/antd/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/antd/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/apps/gallery/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/apps/gallery/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/apps/mail/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/apps/mail/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/apps/messaging/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/apps/messaging/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/apps/profile/SettingsForm/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/apps/profile/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/apps/profile/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/blog/add-blog-post/AddForm/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/blog/add-blog-post/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/blog/add-blog-post/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/blog/feed/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/blog/feed/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/blog/post/CommentForm/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/blog/post/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/blog/post/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/charts/c3/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/charts/chart/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/charts/chartist/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/charts/peity/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/dashboard/alpha/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/dashboard/beta/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/dashboard/crypto/TradeChart/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/dashboard/crypto/TradeChart/utils.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/dashboard/crypto/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/dashboard/crypto/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/dashboard/docs/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/dashboard/docs/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/dashboard/gamma/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/ecommerce/cart/CheckoutForm/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/ecommerce/cart/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/ecommerce/cart/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/ecommerce/dashboard/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/ecommerce/orders/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/ecommerce/product-details/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/ecommerce/product-details/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/ecommerce/product-edit/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/ecommerce/products-catalog/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/ecommerce/products-list/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/ecommerce/products-list/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/github/discuss/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/github/discuss/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/github/explore/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/github/explore/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/icons/fontawesome/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/icons/icomoon/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/icons/linear/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/layout/bootstrap/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/layout/card/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/layout/mail-templates/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/layout/typography/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/layout/utilities/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/pages/invoice/UnlockForm/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/pages/invoice/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/pages/lockscreen/UnlockForm/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/pages/lockscreen/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/pages/lockscreen/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/pages/login-alpha/LoginForm/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/pages/login-alpha/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/pages/login-alpha/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/pages/login-beta/LoginForm/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/pages/login-beta/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/pages/login-beta/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/pages/pricing-table/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/pages/pricing-table/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/pages/register/RegisterForm/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/pages/register/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/pages/register/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/user/forgot/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/user/forgot/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/user/login/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/user/login/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/youtube/feed/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/youtube/feed/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/youtube/view/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/pages/youtube/view/style.module.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/redux/menu/actions.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/redux/menu/reducers.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/redux/menu/sagas.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/redux/reducers.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/redux/sagas.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/redux/settings/actions.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/redux/settings/reducers.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/redux/settings/sagas.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/redux/user/actions.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/redux/user/reducers.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/redux/user/sagas.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/router.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/serviceWorker.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/services/menu.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/services/user.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/theme.js.
+The file will have its original line endings in your working directory
