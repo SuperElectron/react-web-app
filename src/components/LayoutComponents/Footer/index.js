@@ -7,15 +7,10 @@ const Footer = () => (
     <div className={styles.inner}>
       <div className="row">
         <div className="col-lg-9">
-          <p>
-            <strong>Okanagan Getways - Your One and Only Premier Vacation Rental Management!</strong>
-          </p>
-          <p>
-            INSERT DISCLAMINER OR SLOGAN ETC
-          </p>
-          <p>
-            INSERT DISCLAMINER OR SLOGAN ETC
-          </p>
+          <p><strong>Okanagan Getaways - Premier Vacation Rental Management</strong></p>
+          <p>CONTACT US!</p>
+          <p>PHONE: 778-583-4495</p>
+          <p>LOCATION: Kelowna, BC, Canada</p>
         </div>
       </div>
       <div className={styles.bottom}>

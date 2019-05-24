@@ -1,6 +1,9 @@
 export async function getLeftMenuData() {
   return [
     {
+      divider: true,
+    },
+    {
       title: 'Home',
       key: 'home',
       icon: 'icmn icmn-home',
@@ -25,15 +28,30 @@ export async function getLeftMenuData() {
       url: '/dashboard/services',
     }, 
     {
-      title: 'More',
-      key: 'more',
-      icon: 'icmn icmn-cog utils__spin-delayed--pseudo-selector',
-      url: '/dashboard/more',
-    }, 
+      divider: true,
+    },
+    {
+      title: 'Client View',
+      key: 'client',
+      icon: 'icmn icmn-cart',
+      children: [
+        {
+          title: 'Dashboard',
+          key: 'dashboard',
+          url: '/client/dashboard',
+          pro: true,
+        },
+      ],
+    },
     {
       divider: true,
     },
-// SUPPLIED CODE
+    {
+      title: 'More',
+      key: 'more',
+      icon: 'icmn icmn-light',
+      url: '/dashboard/more',
+    },
     {
       title: 'Settings',
       key: 'settings',
@@ -41,26 +59,7 @@ export async function getLeftMenuData() {
     },
     {
       divider: true,
-    },
-    {
-      title: 'Ecommerce',
-      key: 'ecommerce',
-      icon: 'icmn icmn-cart',
-      children: [
-        {
-          title: 'Dashboard',
-          key: 'dashboard',
-          url: '/ecommerce/dashboard',
-          pro: true,
-        },
-        {
-          title: 'Products Details',
-          key: 'productsDetails',
-          url: '/ecommerce/product-details',
-          pro: true,
-        },
-      ],
-    },
+    }
   ]
 }
 export async function getTopMenuData() {
@@ -90,44 +89,34 @@ export async function getTopMenuData() {
       url: '/dashboard/services',
     }, 
     {
-      title: 'More',
-      key: 'more',
-      icon: 'icmn icmn-cog utils__spin-delayed--pseudo-selector',
-      url: '/dashboard/more',
-    }, 
-    {
-      divider: true,
-    },
-// SUPPLIED CODE BELOW
-    {
-      title: 'Settings',
-      key: 'settings',
-      icon: 'icmn icmn-cog utils__spin-delayed--pseudo-selector',
-    },
-    {
       title: 'Pages',
       key: 'pages',
       icon: 'icmn icmn-stack',
       children: [
         {
-          title: 'Ecommerce',
-          key: 'ecommerce',
+          title: 'Client View',
+          key: 'client',
           children: [
             {
               title: 'Dashboard',
               key: 'dashboard',
-              url: '/ecommerce/dashboard',
-              pro: true,
-            },
-            {
-              title: 'Products Details',
-              key: 'productsDetails',
-              url: '/ecommerce/product-details',
+              url: '/client/dashboard',
               pro: true,
             },
           ],
         },
       ],
     },
+    {
+      title: 'More',
+      key: 'more',
+      icon: 'icmn icmn-cog utils__spin-delayed--pseudo-selector',
+      url: '/dashboard/more',
+    }, 
+    {
+      title: 'Settings',
+      key: 'settings',
+      icon: 'icmn icmn-cog utils__spin-delayed--pseudo-selector',
+    }
   ]
 }

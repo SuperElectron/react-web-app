@@ -1,32 +1,78 @@
 {
-    "tableData": [
-      {
-        "key": "1",
-        "name": "Damon",
-        "position": "5516 Adolfo Green",
-        "office": "Littelhaven",
-        "age": 18,
-        "date": "2014/06/13",
-        "salary": 553.536
-      },
-      {
-        "key": "2",
-        "name": "Miracle",
-        "position": "176 Hirthe Squares",
-        "office": "Ryleetown",
-        "age": 35,
-        "date": "2013/09/27",
-        "salary": 784.802
-      },
-      {
-        "key": "3",
-        "name": "Torrey",
-        "position": "1995 Richie Neck",
-        "office": "West Sedrickstad",
-        "age": 15,
-        "date": "2014/09/12",
-        "salary": 344.302
-      }
-    ]
-  }
-  
+  "name": "We market your suite!",
+  "rate": 5,
+  "images": [ "https://a0.muscache.com/im/pictures/b893adfd-e749-465b-851d-23db01ad8cc2.jpg?aki_policy=x_large",
+              "https://a0.muscache.com/im/pictures/f3e7f609-0be1-4a7e-a81b-2572d3ebe724.jpg?aki_policy=large",
+              "https://a0.muscache.com/im/pictures/4199850b-2294-4949-964f-092b45f85bf4.jpg?aki_policy=x_large",
+              "https://a0.muscache.com/im/pictures/078aa2c0-d1c1-4d2f-99b3-c058743801bf.jpg?aki_policy=x_large"],
+  "price": "189.95/night",
+  "shortDescr": "We provide customized posting with pricing based on data-driven strategies with the goal of being number one in customer services as a Air-BnB SuperHost.",
+  "services": [
+    {
+      "name": "1 ",
+      "value": "Short-term vacation rental program"
+    },
+    {
+      "name": "2 ",
+      "value": "Long-term off-season rentals (Sept 1st -April 30th)"  
+    },
+    {
+      "name": "3 ",
+      "value": "Marketing of your property on third party websites"
+    },
+    {
+      "name": "4 ",
+      "value": "Housekeeping services"
+    },
+    {
+      "name": "5 ",
+      "value": "Property checks"
+    },
+    {
+      "name": "6 ",
+      "value": "Maintenance"
+    },
+    {
+      "name": "7 ",
+      "value": "Linen Service"
+    },
+    {
+      "name": "8 ",
+      "value": "Check in service"
+    },
+    {
+      "name": "9 ",
+      "value": "Guest interaction"
+    }
+  ],
+
+  "finances": [
+    {
+      "name": "1 ",
+      "value": "Tax collection and remittance"
+    },
+    {
+      "name": "2 ",
+      "value": "Monthly and annual statements to owners"
+    },
+    {
+      "name": "3 ",
+      "value": "Data logging dashboard through our website"
+    }
+  ],
+
+  "results": [
+    {
+      "name": "SuperHost Rating",
+      "value": "262 of 275 reviews are 5 star"
+    },
+    {
+      "name":"Feature 2",
+      "value": "Feature 2"
+    },
+    {
+      "name":"Feature 3",
+      "value": "Feature 3"
+    }
+  ]
+}

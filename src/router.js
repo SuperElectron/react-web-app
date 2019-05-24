@@ -55,13 +55,8 @@ const routes = [
   },
   // Ecommerce
   {
-    path: '/ecommerce/dashboard',
-    component: loadable(() => import('pages/ecommerce/dashboard')),
-    exact: true,
-  },
-  {
-    path: '/ecommerce/product-details',
-    component: loadable(() => import('pages/ecommerce/product-details')),
+    path: '/client/dashboard',
+    component: loadable(() => import('pages/client/dashboard')),
     exact: true,
   },
 ]

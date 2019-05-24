@@ -1,8 +1,11 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import Authorize from 'components/LayoutComponents/Authorize'
+import { Typography, Divider } from 'antd';
 import SliderCard from '../../../components/CleanUIComponents/SliderCard'
 
+
+const { Title, Text } = Typography;
 
 class DashboardResorts extends React.Component {
   render() {
@@ -10,9 +13,9 @@ class DashboardResorts extends React.Component {
     return (
       <Authorize roles={['admin']} redirect to="/dashboard/home">
         <Helmet title="Dashboard Resorts" />
-        <div>
-          <strong className="text-uppercase font-size-16">We manage the best suits and maintain 5 star customer review ratings!</strong>
-        </div>
+        <Title>Be a part of our 5-star team and our success!</Title>
+        <Text strong>Vacation Real-Estate Management Made Easy</Text>
+        <Divider />
         <div>
           <SliderCard />
         </div>

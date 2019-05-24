@@ -27,19 +27,14 @@
   ],
    "latesArticlesData": [{
      "cover": "resources/images/photos/4.jpeg",
-     "name": "Web design tutorial",
-     "date": "June 11, 2017",
+     "name": "Sparkling clean",
+     "date": "May 22, 2019",
      "author": "Setch Morrison"
    }, {
      "cover": "resources/images/photos/5.jpeg",
-     "name": "Cats in my house",
-     "date": "June 10, 2017",
+     "name": "Great outdoor pools",
+     "date": "May 21, 2019",
      "author": "Adrian Mason"
-   }, {
-     "cover": "resources/images/photos/2.jpeg",
-     "name": "Attractions of our city",
-     "date": "June 9, 2017",
-     "author": "Mike Freeman"
    }]
  }
  
