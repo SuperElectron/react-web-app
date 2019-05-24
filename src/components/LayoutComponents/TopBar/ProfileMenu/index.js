@@ -7,7 +7,7 @@ import styles from './style.module.scss'
 @connect(({ user }) => ({ user }))
 class ProfileMenu extends React.Component {
   state = {
-    count: 7,
+    count: 1,
   }
 
   logout = () => {
@@ -17,13 +17,13 @@ class ProfileMenu extends React.Component {
     })
   }
 
-  addCount = () => {
-    let { count } = this.state
-    count += 1
-    this.setState({
-      count,
-    })
-  }
+  // addCount = () => {
+  //   let { count } = this.state
+  //   count += 1
+  //   this.setState({
+  //     count,
+  //   })
+  // }
 
   render() {
     const { user } = this.props
@@ -38,7 +38,7 @@ class ProfileMenu extends React.Component {
             <strong className="mr-1">
               <FormattedMessage id="topBar.profileMenu.billingPlan" />:{' '}
             </strong>
-            Professional
+            Inquire for Details!
           </div>
           <div>
             <strong>

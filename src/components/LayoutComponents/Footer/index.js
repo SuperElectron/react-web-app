@@ -35,7 +35,7 @@ const Footer = () => (
               <span>
                 © 2019{' '}
                 <a href="http://OkanaganGetaways.ca/" target="_blank" rel="noopener noreferrer">
-                  KeshMc Inc.
+                  MatMcCann Inc.
                 </a>
                 <br />
                 All rights reserved
