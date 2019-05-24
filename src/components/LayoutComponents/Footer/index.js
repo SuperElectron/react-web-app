@@ -7,46 +7,35 @@ const Footer = () => (
     <div className={styles.inner}>
       <div className="row">
         <div className="col-lg-9">
-          <p>
-            <strong>Clean UI React Admin Template - Best Solution for Your App!</strong>
-          </p>
-          <p>
-            Clean UI – a modern professional admin template, based on Bootstrap 4 framework. Clean
-            UI is a powerful and super flexible tool, which suits best for any kind of web
-            application: Web Applications; CRM; CMS; Admin Panels; Dashboards; etc. Clean UI is
-            fully responsive, which means that it looks perfect on mobiles and tablets.
-          </p>
-          <p>
-            Clean UI is fully based on SASS pre-processor, includes 50+ commented SASS files. Each
-            file corresponds to a single component, layout, page, plugin or extension – so you can
-            easily find necessary piece of code and edit it for your needs. The package includes
-            both normal and minified CSS files, compiled from SASS.
-          </p>
+          <p><strong>Okanagan Getaways - Premier Vacation Rental Management</strong></p>
+          <p>CONTACT US!</p>
+          <p>PHONE: 778-583-4495</p>
+          <p>LOCATION: Kelowna, BC, Canada</p>
         </div>
       </div>
       <div className={styles.bottom}>
         <div className="row">
           <div className="col-sm-6">
             <a
-              href="https://themeforest.net/item/clean-ui-react-admin-template/21938700"
+              href="https://www.okanagangetaways.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="mr-4"
             >
-              <Button type="danger">Buy Now 24$</Button>
+              <Button type="danger">VIEW WEB</Button>
             </a>
           </div>
           <div className="col-sm-6">
             <div className={styles.copyright}>
               <img
-                src="resources/images/mediatec.png"
+                src="https://static.wixstatic.com/media/7d8a34_d013069531184d7f8a048120b8cefaa5~mv2.png/v1/crop/x_0,y_2,w_201,h_121/fill/w_220,h_132,al_c,lg_1/7d8a34_d013069531184d7f8a048120b8cefaa5~mv2.png"
                 rel="noopener noreferrer"
-                alt="Mediatec Software"
+                alt="logo"
               />
               <span>
                 © 2019{' '}
-                <a href="http://mediatec.org/" target="_blank" rel="noopener noreferrer">
-                  Mediatec Software
+                <a href="http://OkanaganGetaways.ca/" target="_blank" rel="noopener noreferrer">
+                  KeshMc Inc.
                 </a>
                 <br />
                 All rights reserved

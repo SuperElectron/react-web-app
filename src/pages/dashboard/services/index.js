@@ -1,67 +1,95 @@
 import React from 'react'
-import { Button, Table } from 'antd'
 import { Helmet } from 'react-helmet'
-import PaymentCard from 'components/CleanUIComponents/PaymentCard'
-import PaymentAccount from 'components/CleanUIComponents/PaymentAccount'
-import PaymentTransaction from 'components/CleanUIComponents/PaymentTransaction'
+import { Typography, Divider, Carousel, Breadcrumb, Rate, Button, Tabs } from 'antd';
 import ChartCard from 'components/CleanUIComponents/ChartCard'
 import Authorize from 'components/LayoutComponents/Authorize'
-import { tableData } from './data.json'
+import styles from './style.module.scss'
+import data from './data.json'
 
-class DashboardAlpha extends React.Component {
+const { Title, Text } = Typography;
+const { TabPane } = Tabs
+
+class DashboardService extends React.Component {
+  state = {
+    imgActiveStatus: [],
+    images: data.images,
+    name: data.name,
+    rate: data.rate,
+    price: data.price,
+    shortDescr: data.shortDescr,
+    services: data.services,
+    finances:data.finances,
+    results: data.results,
+  }
+
+  componentWillMount() {
+    this.generateImgStatus()
+  }
+
+  generateImgStatus = () => {
+    const { imgActiveStatus, images } = this.state
+    images.forEach((img, index) => {
+      imgActiveStatus[index] = 'not-active'
+      if (index === 0) {
+        imgActiveStatus[0] = 'active'
+      }
+    })
+  }
+
+  setActiveImg = imgNumber => {
+    const { imgActiveStatus } = this.state
+    imgActiveStatus.forEach((imgStatus, index) => {
+      imgActiveStatus[index] = 'not-active'
+      if (imgNumber === index) {
+        imgActiveStatus[index] = 'active'
+      }
+    })
+    this.setState({
+      imgActiveStatus,
+    })
+  }
+
+  refSlider = node => {
+    this.slider = node
+  }
+
+  changeSlide = (e, index) => {
+    e.preventDefault()
+    this.slider.slick.innerSlider.slickGoTo(index)
+    this.setActiveImg(index)
+  }
+  
   render() {
-    const tableColumns = [
-      {
-        title: 'Name',
-        dataIndex: 'name',
-        key: 'name',
-      },
-      {
-        title: 'Position',
-        dataIndex: 'position',
-        key: 'position',
-      },
-      {
-        title: 'Age',
-        dataIndex: 'age',
-        key: 'age',
-        sorter: (a, b) => a.age - b.age,
-      },
-      {
-        title: 'Office',
-        dataIndex: 'office',
-        key: 'office',
-      },
-      {
-        title: 'Date',
-        dataIndex: 'date',
-        key: 'date',
-      },
-      {
-        title: 'Salary',
-        dataIndex: 'salary',
-        key: 'salary',
-        sorter: (a, b) => a.salary - b.salary,
-      },
-    ]
+    const {
+      imgActiveStatus,
+      images,
+      name,
+      rate,
+      price,
+      shortDescr,
+      services,
+      finances,
+      results,
+    } = this.state
 
     return (
-      <Authorize roles={['admin']} redirect to="/dashboard/beta">
-        <Helmet title="Dashboard Alpha" />
-        <div className="utils__title utils__title--flat mb-3">
-          <strong className="text-uppercase font-size-16">Last Week Statistics</strong>
-        </div>
+      <Authorize roles={['admin']} redirect to="/dashboard/home">
+        <Helmet title="Dashboard Service" />
+        <Title>Services</Title>
+        <Text strong>Vacation Real-Estate Management Made Easy</Text>
+        <Divider />
+        <strong className="text-uppercase font-size-16">Statistics</strong>
         <div className="row">
           <div className="col-xl-4">
             <ChartCard
-              title="Transactions"
-              amount="1240"
+              title="Reviews"
+              amount="275"
               chartProps={{
                 width: 120,
                 height: 107,
                 lines: [
                   {
-                    values: [2, 11, 8, 14, 18, 20, 26],
+                    values: [1, 2, 4, 8, 16, 32, 64],
                     colors: {
                       area: 'rgba(199, 228, 255, 0.5)',
                       line: '#004585',
@@ -73,33 +101,14 @@ class DashboardAlpha extends React.Component {
           </div>
           <div className="col-xl-4">
             <ChartCard
-              title="Income"
-              amount="$1,240.00"
+              title="Summer Average Nightly Booking"
+              amount="$240.00"
               chartProps={{
                 width: 120,
                 height: 107,
                 lines: [
                   {
-                    values: [20, 80, 67, 120, 132, 66, 97],
-                    colors: {
-                      area: 'rgba(199, 228, 255, 0.5)',
-                      line: '#004585',
-                    },
-                  },
-                ],
-              }}
-            />
-          </div>
-          <div className="col-xl-4">
-            <ChartCard
-              title="Outcome"
-              amount="$240.56"
-              chartProps={{
-                width: 120,
-                height: 107,
-                lines: [
-                  {
-                    values: [42, 40, 80, 67, 84, 20, 97],
+                    values: [120, 130, 128, 125, 121, 127, 132],
                     colors: {
                       area: 'rgba(199, 228, 255, 0.5)',
                       line: '#004585',
@@ -110,139 +119,156 @@ class DashboardAlpha extends React.Component {
             />
           </div>
         </div>
-        <div className="row">
-          <div className="col-lg-12">
-            <div className="card">
-              <div className="card-header">
-                <div className="utils__title">
-                  <strong>Recently Referrals</strong>
+        <Divider />
+
+        <section className="card">
+          <div className="card-header">
+            <div className="utils__title">
+              <strong>Marketing and Management</strong>
+            </div>
+          </div>
+          <div className="card-body">
+            <div className="row">
+              <div className="col-lg-4">
+                <div className={styles.item}>
+                  <div className={styles.img}>
+                    <div className={styles.status}>
+                      <span className={styles.statusTitle}>Sample</span>
+                    </div>
+                    <div className={`${styles.like} ${styles.selectedLike}`}>
+                      <i className="icmn-heart" />
+                    </div>
+                    <Carousel ref={this.refSlider} autoplay={false} dots={false} effect="fade">
+                      {images.map(image => (
+                        <div key={image}>
+                          <img className={styles.img} src={image} alt="" />
+                        </div>
+                      ))}
+                    </Carousel>
+                  </div>
                 </div>
-                <div className="utils__titleDescription">
-                  Block with important Recently Referrals information
+                <div className={`${styles.photos} clearfix`}>
+                  {images.map((image, index) => (
+                    <a
+                      href="javascript: void(0)"
+                      key={image}
+                      onClick={e => {
+                        this.changeSlide(e, index)
+                      }}
+                      className={`${styles.photosItem} ${
+                        imgActiveStatus[index] === 'active' ? styles.photosItemActive : ''
+                      }`}
+                    >
+                      <img src={image} alt="" />
+                    </a>
+                  ))}
                 </div>
               </div>
-              <div className="card-body">
-                <Table
-                  className="utils__scrollTable"
-                  scroll={{ x: '100%' }}
-                  columns={tableColumns}
-                  dataSource={tableData}
-                  pagination={false}
-                />
+              <div className="col-lg-8">
+                <div className={styles.breadcrumbs}>
+                  <Breadcrumb separator="">
+                    <Breadcrumb.Item>
+                      <span className={styles.breadcrumbItem}>
+                        <a href="javascript: void(0);">Marketing</a>
+                      </span>
+                    </Breadcrumb.Item>
+                    <Breadcrumb.Item>
+                      <span className={styles.breadcrumbItem}>
+                        <a href="javascript: void(0);">Bookings</a>
+                      </span>
+                    </Breadcrumb.Item>
+                    <Breadcrumb.Item>
+                      <span className={styles.breadcrumbItem}>
+                        <a href="javascript: void(0);">Day-to-Day Management</a>
+                      </span>
+                    </Breadcrumb.Item>
+                  </Breadcrumb>
+                </div>
+                <div className={styles.sku}>
+                  <br />
+                  <div className={styles.raiting}>
+                    <Rate value={rate} disabled allowHalf />
+                  </div>
+                </div>
+                <h4 className={styles.mainTitle}>
+                  <strong>{name}</strong>
+                </h4>
+                <div className={styles.price}>
+                  {`$${price}`}
+                </div>
+                <hr />
+                <div className={`mb-1 ${styles.descr}`}>
+                  <p>{shortDescr}</p>
+                </div>
+                <hr />
+                <div className={styles.controls}>
+                  <Button type="primary" size="large">
+                    <a href="https://www.airbnb.ca/rooms/17963682" className="btn btn-link" target="_blank" rel="noopener noreferrer">
+                      <i className="icmn-heart mr-1" />
+                      View this suite on Air BnB now!
+                    </a>
+                  </Button>
+                  <a href="/contact" className="btn btn-link">
+                    <i className="icmn-heart mr-1" />
+                    Inquire about your suite
+                  </a>
+                </div>
+
+                <div className={styles.info}>
+                  <Tabs defaultActiveKey="1">
+                    <TabPane tab="Services" key="1">
+                      {services.map(property => (
+                        <div className="mb-1" key={property.name}>
+                          <strong className="mr-1">{`${property.name}: `}</strong>
+                          {property.value}
+                        </div>
+                      ))}
+                    </TabPane>
+                    <TabPane tab="Results" key="2">
+                      {results.map(property => (
+                        <div className="mb-1" key={property.name}>
+                          <strong className="mr-1">{`${property.name}: `}</strong>
+                          {property.value}
+                        </div>
+                      ))}
+                    </TabPane>
+                  </Tabs>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="utils__title utils__title--flat mb-3">
-          <strong className="text-uppercase font-size-16">Your Cards (3)</strong>
-          <Button className="ml-3">View All</Button>
-        </div>
-        <div className="row">
-          <div className="col-lg-4">
-            <PaymentCard
-              icon="lnr lnr-bookmark"
-              name="Matt Daemon"
-              number="4512-XXXX-1678-7528"
-              type="VISA"
-              footer="Expires at 02/20"
-              sum="$2,156.78"
-            />
-          </div>
-          <div className="col-lg-4">
-            <PaymentCard
-              icon="lnr lnr-bookmark"
-              name="David Beckham"
-              number="8748-XXXX-1678-5416"
-              type="MASTERCARD"
-              footer="Expires at 03/22"
-              sum="$560,245.35"
-            />
-          </div>
-          <div className="col-lg-4">
-            <PaymentCard
-              icon="lnr lnr-hourglass"
-              name="Mrs. Angelina Jolie"
-              number="6546-XXXX-1678-1579"
-              type="VISA"
-              footer="Locked Temporary"
-              sum="$1,467,98"
-            />
-          </div>
-        </div>
-        <div className="utils__title utils__title--flat mb-3">
-          <strong className="text-uppercase font-size-16">Your Accounts (6)</strong>
-          <Button className="ml-3">View All</Button>
-        </div>
-        <div className="row">
-          <div className="col-lg-6">
-            <PaymentAccount
-              icon="lnr lnr-inbox"
-              number="US 4658-1678-7528"
-              footer="Current month charged: $10,200.00"
-              sum="$2,156.78"
-            />
-          </div>
-          <div className="col-lg-6">
-            <PaymentAccount
-              icon="lnr lnr-inbox"
-              number="IBAN 445646-8748-4664-1678-5416"
-              footer="Current month charged: $1,276.00"
-              sum="$560,245.35"
-            />
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-lg-6">
-            <PaymentAccount
-              icon="lnr lnr-inbox"
-              number="US 4658-1678-7528"
-              footer="Current month charged: $10,200.00"
-              sum="$2,156.78"
-            />
-          </div>
-          <div className="col-lg-6">
-            <PaymentAccount
-              icon="lnr lnr-inbox"
-              number="IBAN 445646-8748-4664-1678-5416"
-              footer="Current month charged: $1,276.00"
-              sum="$560,245.35"
-            />
-          </div>
-        </div>
-        <div className="utils__title mb-3">
-          <strong className="text-uppercase font-size-16">Recent Transactions (167)</strong>
-          <Button className="ml-3">View All</Button>
-        </div>
-        <div className="row">
-          <div className="col-lg-12">
-            <PaymentTransaction
-              income={false}
-              amount="-$100.00"
-              info="US 4658-1678-7528"
-              footer="To AMAZON COPR, NY, 1756"
-            />
-            <PaymentTransaction
-              income
-              amount="+27,080.00"
-              info="4512-XXXX-1678-7528"
-              footer="To DigitalOcean Cloud Hosting, Winnetka, LA"
-            />
-            <PaymentTransaction
-              income={false}
-              amount="-100,000.00"
-              info="6245-XXXX-1678-3256"
-              footer="To Tesla Cars, LA, USA"
-            />
-            <div className="text-center pb-5">
-              <Button type="primary" className="width-200" loading>
-                Load More...
-              </Button>
+        </section>
+
+        <Divider />
+        <section className="card">
+          <div className="card-header">
+            <div className="utils__title">
+              <strong>Financial Reporting</strong>
             </div>
           </div>
-        </div>
+          <div className="card-body">
+            <div className="row">
+              <div className="col-lg-4">
+                <div className={styles.info}>
+                  <Tabs defaultActiveKey="1">
+                    <TabPane tab="Services" key="1">
+                      {finances.map(property => (
+                        <div className="mb-2" key={property.name}>
+                          <strong className="mr-2">{`${property.name}: `}</strong>
+                          {property.value}
+                        </div>
+                      ))}
+                    </TabPane>
+                  </Tabs>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
       </Authorize>
     )
   }
 }
 
-export default DashboardAlpha
+export default DashboardService

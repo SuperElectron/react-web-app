@@ -1,0 +1,40 @@
+{
+  "articlesData": [
+    {
+      "name": "5 STAR SERVICE",
+      "author": "Tina McKinsley",
+      "date": "May 5, 2019",
+      "tags": ["Income", "NoHeadache", "Lifestyle"],
+      "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFkr9jw9zpaGOo6UOtOGZ6rXIMeUjSmX8UBv4cdH15li8-teBM",
+      "shortContent": "<p>Vacation rentals offer a remarkably simple source for extra income with the right management. My experience has been fantastic with Okanagan Vacation Rentals and our 2 bedroom unit has 5 star rating which means we are the first in Air-bnb and VRBO searches.  I have seen a 3x increase in revenue with vacation rentals since the switch from traditional rental and with carefully selected tenants Okanagan Getaways ensures respectable tenants stay in my suite.</p>"
+    },
+    {
+      "name": "HANDS FREE RENTAL",
+      "author": "John Doe",
+      "date": "Aug 15, 2018",
+      "tags": ["Invoicing", "Marketing", "RealEstatePolitics"],
+      "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFkr9jw9zpaGOo6UOtOGZ6rXIMeUjSmX8UBv4cdH15li8-teBM",
+      "shortContent": "<p>Insert testimonial.<p>"
+    },
+    {
+      "name": "HANDS FREE RENTAL",
+      "author": "John Doe",
+      "date": "Aug 15, 2018",
+      "tags": ["Invoicing", "Marketing", "RealEstatePolitics"],
+      "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFkr9jw9zpaGOo6UOtOGZ6rXIMeUjSmX8UBv4cdH15li8-teBM",
+      "shortContent": "<p>Insert testimonial.<p>"
+    }
+  ],
+   "latesArticlesData": [{
+     "cover": "resources/images/photos/4.jpeg",
+     "name": "Sparkling clean",
+     "date": "May 22, 2019",
+     "author": "Setch Morrison"
+   }, {
+     "cover": "resources/images/photos/5.jpeg",
+     "name": "Great outdoor pools",
+     "date": "May 21, 2019",
+     "author": "Adrian Mason"
+   }]
+ }
+ 

@@ -1,0 +1,91 @@
+{
+  "bookingGraph": {
+    "labels": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+    "series": [[120, 130, 130, 0, 140, 165, 165]]
+  },
+  "bookingInfo": {
+    "revenue": "$720.00",
+    "tax": "$115.20",
+    "cleaning": "$0.00*",
+    "quantity": "85%"
+  },
+  "bookingData": [{
+    "date":"2018/05/23",
+    "key": "1",
+    "guest": "Sorina B.",
+    "price": 165.00,
+    "rating": 5
+  }, {
+    "date":"2018/05/21",
+    "key": "2",
+    "guest": "Henry R.",
+    "price": 140.00,
+    "rating": 5
+  }, {
+    "date":"2018/05/19",
+    "key": "3",
+    "guest": "Marselle G.",
+    "price": 130.00,
+    "rating": 5
+  }, {
+    "date":"2018/05/17",
+    "key": "4",
+    "guest": "Graham S.",
+    "price": 120.00,
+    "rating": 4.5
+  }, {
+    "date":"2018/05/15",
+    "key": "5",
+    "guest": "Sally M.",
+    "price": 165.00,
+    "rating": 5
+  }, {
+    "date":"2018/05/14",
+    "key": "6",
+    "guest": "Maria F.",
+    "price": 145.00,
+    "rating": 5
+  }, {
+    "date":"2018/05/13",
+    "key": "7",
+    "guest": "Greg G.",
+    "price": 109.00,
+    "rating": 5
+  }, {
+    "date":"2018/05/12",
+    "key": "8",
+    "guest": "Janice R.",
+    "price": 115.00,
+    "rating": 5
+  }, {
+    "date":"2018/05/11",
+    "key": "9",
+    "guest": "Frank S.",
+    "price":115.00,
+    "rating": 5
+  }, {
+    "date":"2018/05/10",
+    "key": "10",
+    "guest": "Tina G.",
+    "price": 120.00,
+    "rating": 5
+  }, {
+    "date":"2018/05/08",
+    "key": "11",
+    "guest": "Rachelle W.",
+    "price": 130.00,
+    "rating": 4.5
+  }, {
+    "date":"2018/05/05",
+    "key": "12",
+    "guest": "Sam Y.",
+    "price": 110.00,
+    "rating": 5
+  }, {
+    "date":"2018/05/04",
+    "key": "13",
+    "guest": "Xai Do D.",
+    "price": 110.00,
+    "rating": 5
+  }]
+}

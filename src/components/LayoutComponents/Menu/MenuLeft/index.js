@@ -7,6 +7,9 @@ import { Scrollbars } from 'react-custom-scrollbars'
 import _ from 'lodash'
 import styles from './style.module.scss'
 
+
+// src={`public/resources/images/logo-inverse${menuSettings.collapsed ? '-mobile' : ''}.png`}
+
 const { Sider } = Layout
 const { SubMenu, Divider } = Menu
 
@@ -208,8 +211,8 @@ class MenuLeft extends React.Component {
         <div className={styles.logo}>
           <div className={styles.logoContainer}>
             <img
-              src={`resources/images/logo-inverse${menuSettings.collapsed ? '-mobile' : ''}.png`}
-              alt=""
+              src="https://static.wixstatic.com/media/7d8a34_d013069531184d7f8a048120b8cefaa5~mv2.png/v1/crop/x_0,y_2,w_201,h_121/fill/w_220,h_132,al_c,lg_1/7d8a34_d013069531184d7f8a048120b8cefaa5~mv2.png"
+              alt="1"
             />
           </div>
         </div>
@@ -240,19 +243,6 @@ class MenuLeft extends React.Component {
           >
             {menu}
           </Menu>
-          <div className={styles.buyPro}>
-            <p>
-              <strong>More components, more styles, more themes, and premium support!</strong>
-            </p>
-            <a
-              href="https://themeforest.net/item/clean-ui-react-admin-template/21938700"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-sm btn-danger"
-            >
-              Buy Pro 24$
-            </a>
-          </div>
         </Scrollbars>
       </Sider>
     )
