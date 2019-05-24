@@ -39,8 +39,8 @@ const routes = [
     exact: true,
   },
   {
-    path: '/dashboard/rentals',
-    component: loadable(() => import('pages/dashboard/rentals')),
+    path: '/dashboard/testimonials',
+    component: loadable(() => import('pages/dashboard/testimonials')),
     exact: true,
   },
   {
@@ -53,11 +53,6 @@ const routes = [
     component: loadable(() => import('pages/dashboard/services')),
     exact: true,
   },
-  {
-    path: '/pages/pricing-table',
-    component: loadable(() => import('pages/pages/pricing-table')),
-    exact: true,
-  },
   // Ecommerce
   {
     path: '/ecommerce/dashboard',
@@ -65,46 +60,8 @@ const routes = [
     exact: true,
   },
   {
-    path: '/ecommerce/products-catalog',
-    component: loadable(() => import('pages/ecommerce/products-catalog')),
-    exact: true,
-  },
-  {
     path: '/ecommerce/product-details',
     component: loadable(() => import('pages/ecommerce/product-details')),
-    exact: true,
-  },
-  {
-    path: '/ecommerce/products-list',
-    component: loadable(() => import('pages/ecommerce/products-list')),
-    exact: true,
-  },
-  // Blog
-  {
-    path: '/blog/feed',
-    component: loadable(() => import('pages/blog/feed')),
-    exact: true,
-  },
-  {
-    path: '/blog/post',
-    component: loadable(() => import('pages/blog/post')),
-    exact: true,
-  },
-  {
-    path: '/blog/add-blog-post',
-    component: loadable(() => import('pages/blog/add-blog-post')),
-    exact: true,
-  },
-
-  // YouTube
-  {
-    path: '/youtube/feed',
-    component: loadable(() => import('pages/youtube/feed')),
-    exact: true,
-  },
-  {
-    path: '/youtube/view',
-    component: loadable(() => import('pages/youtube/view')),
     exact: true,
   },
 ]

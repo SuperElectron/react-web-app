@@ -1,23 +1,20 @@
 import React from 'react'
-import { Carousel, Breadcrumb, Rate, Select, Tooltip, Button, Icon, Tabs } from 'antd'
+import { Carousel, Breadcrumb, Rate, Button, Tabs } from 'antd'
 import { Helmet } from 'react-helmet'
 import styles from './style.module.scss'
 import data from './data.json'
 
 const { TabPane } = Tabs
-const { Option } = Select
 
 class ProductDetails extends React.Component {
   state = {
     imgActiveStatus: [],
     images: data.images,
-    sku: data.sku,
     name: data.name,
     rate: data.rate,
     price: data.price,
-    oldPrice: data.oldPrice,
     shortDescr: data.shortDescr,
-    description: data.description,
+    services: data.services,
     properties: data.properties,
   }
 
@@ -62,13 +59,11 @@ class ProductDetails extends React.Component {
     const {
       imgActiveStatus,
       images,
-      sku,
       name,
       rate,
       price,
-      oldPrice,
       shortDescr,
-      description,
+      services,
       properties,
     } = this.state
 
@@ -87,7 +82,7 @@ class ProductDetails extends React.Component {
                 <div className={styles.item}>
                   <div className={styles.img}>
                     <div className={styles.status}>
-                      <span className={styles.statusTitle}>New</span>
+                      <span className={styles.statusTitle}>Sample</span>
                     </div>
                     <div className={`${styles.like} ${styles.selectedLike}`}>
                       <i className="icmn-heart" />
@@ -123,23 +118,22 @@ class ProductDetails extends React.Component {
                   <Breadcrumb separator="">
                     <Breadcrumb.Item>
                       <span className={styles.breadcrumbItem}>
-                        <a href="javascript: void(0);">Catalog</a>
+                        <a href="javascript: void(0);">Marketing</a>
                       </span>
                     </Breadcrumb.Item>
                     <Breadcrumb.Item>
                       <span className={styles.breadcrumbItem}>
-                        <a href="javascript: void(0);">Chairs</a>
+                        <a href="javascript: void(0);">Bookings</a>
                       </span>
                     </Breadcrumb.Item>
                     <Breadcrumb.Item>
                       <span className={styles.breadcrumbItem}>
-                        <a href="javascript: void(0);">White</a>
+                        <a href="javascript: void(0);">Day-to-Day Management</a>
                       </span>
                     </Breadcrumb.Item>
                   </Breadcrumb>
                 </div>
                 <div className={styles.sku}>
-                  {`SKU: #${sku}`}
                   <br />
                   <div className={styles.raiting}>
                     <Rate value={rate} disabled allowHalf />
@@ -150,66 +144,41 @@ class ProductDetails extends React.Component {
                 </h4>
                 <div className={styles.price}>
                   {`$${price}`}
-                  {oldPrice && <div className={styles.priceBefore}>{`$${oldPrice}`}</div>}
                 </div>
                 <hr />
                 <div className={`mb-1 ${styles.descr}`}>
                   <p>{shortDescr}</p>
                 </div>
-                <div className="row">
-                  <div className="col-lg-6">
-                    <div className={styles.optionTitle}>Color</div>
-                    <div className={styles.option}>
-                      <Select defaultValue="Red" size="small" style={{ width: 120 }}>
-                        <Option value="red">Red</Option>
-                        <Option value="black">Black</Option>
-                        <Option value="cyan">Cyan</Option>
-                        <Option value="blue">Blue</Option>
-                      </Select>
-                    </div>
-                    <div className={styles.optionTitle}>Available Size</div>
-                    <div className={styles.option}>
-                      <div className={styles.sizes}>
-                        <Tooltip placement="top" title="Size S">
-                          <span>S</span>
-                        </Tooltip>
-                        <Tooltip placement="top" title="Size M">
-                          <span title="Size M">M</span>
-                        </Tooltip>
-                        <Tooltip placement="top" title="Size XL">
-                          <span>XL</span>
-                        </Tooltip>
-                      </div>
-                    </div>
-                  </div>
-                </div>
                 <hr />
                 <div className={styles.controls}>
                   <Button type="primary" size="large">
-                    <Icon type="shopping-cart" />
-                    Buy now
+                    <a href="https://www.airbnb.ca/rooms/17963682" className="btn btn-link" target="_blank" rel="noopener noreferrer">
+                      <i className="icmn-heart mr-1" />
+                      View this suite on Air BnB now!
+                    </a>
                   </Button>
-                  <a href="javascript: void(0);" className="btn btn-link">
+                  <a href="/contact" className="btn btn-link">
                     <i className="icmn-heart mr-1" />
-                    Add to Wishlist
-                  </a>
-                  <a href="javascript: void(0);" className="btn btn-link">
-                    <i className="icmn-stats-bars mr-1" />
-                    Add to Compare
+                    Inquire about your suite
                   </a>
                 </div>
                 <div className={styles.info}>
                   <Tabs defaultActiveKey="1">
-                    <TabPane tab="Information" key="1">
-                      {properties.map(property => (
+                    <TabPane tab="Services" key="1">
+                      {services.map(property => (
                         <div className="mb-1" key={property.name}>
                           <strong className="mr-1">{`${property.name}: `}</strong>
                           {property.value}
                         </div>
                       ))}
                     </TabPane>
-                    <TabPane tab="Description" key="2">
-                      <p>{description}</p>
+                    <TabPane tab="Information" key="2">
+                      {properties.map(property => (
+                        <div className="mb-1" key={property.name}>
+                          <strong className="mr-1">{`${property.name}: `}</strong>
+                          {property.value}
+                        </div>
+                      ))}
                     </TabPane>
                   </Tabs>
                 </div>

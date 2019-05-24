@@ -26,9 +26,9 @@
 }
 
 .statusTitle {
-  position: relative;
-  top: rem(-19);
-  left: rem(-18);
+  position: absolute;
+  top: rem(-14);
+  left: rem(-22);
   display: inline-block;
   transform: rotate(-45deg);
   color: $white !important;

@@ -1,42 +1,86 @@
 {
-  "name": "Beautiful Chair for Kids",
-  "sku": "0000235",
-  "rate": 4.5,
-  "images": ["resources/images/ecommerce/001.jpg",
-    "resources/images/ecommerce/002.jpg",
-    "resources/images/ecommerce/003.jpg",
-    "resources/images/ecommerce/004.jpg"],
-  "price": 189.95,
-  "oldPrice": 220.95,
-  "shortDescr": "A chair is a piece of furniture with a raised surface, commonly used to seat a single person. Chairs are supported most often by four legs and have a back; however, a chair can have three legs or can have a different shape.",
-  "properties": [
+  "name": "We market your suite!",
+  "rate": 5,
+  "images": [ "https://a0.muscache.com/im/pictures/b893adfd-e749-465b-851d-23db01ad8cc2.jpg?aki_policy=x_large",
+              "https://a0.muscache.com/im/pictures/f3e7f609-0be1-4a7e-a81b-2572d3ebe724.jpg?aki_policy=large",
+              "https://a0.muscache.com/im/pictures/4199850b-2294-4949-964f-092b45f85bf4.jpg?aki_policy=x_large",
+              "https://a0.muscache.com/im/pictures/078aa2c0-d1c1-4d2f-99b3-c058743801bf.jpg?aki_policy=x_large"],
+  "price": "189.95/night",
+  "shortDescr": "We provide marketing, customized posting with pricing based on data-driven strategies, inventory, house-keeping, maintenance, guest check-in service, guest management and more.",
+  "services": [
     {
-      "name": "Item Weight",
-      "value": "18 pounds"
+    "name": "* ",
+    "value": "Short-term vacation rental program"
     },
     {
-      "name":"Product Dimensions",
-      "value": "13 x 40 x 13 inches"
+    "name": "* ",
+    "value": "Long-term off-season rentals (Sept 1st -April 30th)"
     },
     {
-      "name":"Item model number",
-      "value": "100001"
+    "name": "* ",
+    "value": "Marketing of your property on third party websites"
     },
     {
-      "name":"Assembled Height",
-      "value": "13 inches"
+    "name": "* ",
+    "value": "Housekeeping services"
     },
     {
-      "name":"Assembled Width",
-      "value": "13 inches"},
-    {
-      "name": "Assembled Length",
-      "value": "40 inches"
+    "name": "* ",
+    "value": "Property checks"
     },
     {
-      "name": "Weight",
-      "value": "23 Pounds"
+    "name": "* ",
+    "value": "Maintenance"
+    },
+    {
+    "name": "* ",
+    "value": "Tax collection and remittance"
+    },
+    {
+    "name": "* ",
+    "value": "Linen Service"
+    },
+    {
+      "name": "* ",
+      "value": "Check in service"
+    },
+    {
+      "name": "* ",
+      "value": "Guest interaction"
+    },
+    {
+      "name": "* ",
+      "value": "Monthly and annual statements to owners"
     }
   ],
-  "description": "Mnesarchum velit cumanum utuntur tantam deterritum, democritum vulgo contumeliae abest studuisse quanta telos. Inmensae. Arbitratu dixisset invidiae ferre constituto gaudeat contentam, omnium nescius, consistat interesse animi, amet fuisset numen graecos incidunt euripidis praesens, homines religionis dirigentur postulant. Magnum utrumvis gravitate appareat fabulae facio perveniri fruenda indicaverunt texit, frequenter probet diligenter sententia meam distinctio theseo legerint corporis quoquo, optari futurove expedita."
+  "properties": [
+    {
+      "name": "SuperHost Rating",
+      "value": "262 of 275 reviews are 5 star"
+    },
+    {
+      "name":"Feature 2",
+      "value": "something"
+    },
+    {
+      "name":"Feature 3",
+      "value": "something"
+    },
+    {
+      "name":"Feature 3",
+      "value": "something"
+    },
+    {
+      "name":"Feature 4",
+      "value": "something"
+    },
+    {
+      "name":"Feature 5",
+      "value": "something"
+    },
+    {
+      "name":"Feature 6",
+      "value": "something"
+    }
+  ]
 }

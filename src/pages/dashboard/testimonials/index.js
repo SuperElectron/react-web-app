@@ -1,29 +1,30 @@
 import React from 'react'
-import { Input, Icon, Button, Pagination } from 'antd'
+import { Input, Icon, Pagination, Typography, Divider } from 'antd'
 import { Helmet } from 'react-helmet'
 import styles from './style.module.scss'
 import data from './data.json'
 
-const { Search } = Input
 
-class BlogFeed extends React.Component {
+const { Title, Text } = Typography;
+
+
+class DashboardTestimonials extends React.Component {
   state = {
     articlesData: data.articlesData,
-    articlesCategories: data.articlesCategories,
     latesArticlesData: data.latesArticlesData,
   }
 
   render() {
-    const { articlesData, articlesCategories, latesArticlesData } = this.state
+    const { articlesData, latesArticlesData } = this.state
     return (
       <div>
-        <Helmet title="Blog Feed" />
+        <Helmet title="Dashboards Testimonials" />
         <section className="card">
           <div className="card-header">
-            <div className="utils__title">
-              <strong>Blog Feed</strong>
-            </div>
+            <Title>Testimonials</Title>
+            <Text strong>Vacation Real-Estate Management Made Easy</Text>
           </div>
+          <Divider />
           <div className="card-body">
             <div className={styles.blogFeed}>
               <div className="row">
@@ -34,13 +35,13 @@ class BlogFeed extends React.Component {
                         <div className={styles.information}>
                           <div className={styles.title}>
                             <h1>
-                              <a href="javascript: void(0);">{article.name}</a>
+                              <a>{article.name}</a>
                             </h1>
                           </div>
                           <ul className={styles.meta}>
                             <li className={styles.metaInf}>
                               <span>
-                                Post By <a href="javascript: void(0);">{article.author}</a>
+                                Post By <a>{article.author}</a>
                               </span>
                             </li>
                             <li className={styles.metaInf}>
@@ -49,25 +50,19 @@ class BlogFeed extends React.Component {
                           </ul>
                         </div>
                         <div className={styles.articleMedia}>
-                          <a href="javascript: void(0);" className={styles.link}>
+                          <a className={styles.link}>
                             <img src={article.cover} alt={article.name} />
                           </a>
                         </div>
                         <div className={styles.content}>
                           <div dangerouslySetInnerHTML={{ __html: article.shortContent }} />
-                          <div className={styles.articleMore}>
-                            <Button type="primary">
-                              Read more
-                              <i className="ml-2 fa fa-angle-right" aria-hidden="true" />
-                            </Button>
-                          </div>
                         </div>
                         <footer className={styles.footer}>
                           <div className="row">
                             <div className="col-8">
                               <div className={styles.hashtags}>
                                 {article.tags.map(tag => (
-                                  <a href="javascript: void(0);" key={tag}>
+                                  <a key={tag}>
                                     {tag}
                                   </a>
                                 ))}
@@ -103,35 +98,6 @@ class BlogFeed extends React.Component {
                 </div>
                 <div className="col-lg-4">
                   <aside className={styles.sidebar}>
-                    <div className={styles.partition}>
-                      <div className={styles.partitionHead}>
-                        <span className={styles.partitionName}>Search</span>
-                      </div>
-                      <div className="input-group">
-                        <Search
-                          placeholder="Search ..."
-                          enterButton={
-                            <span>
-                              <Icon type="search" /> Search
-                            </span>
-                          }
-                        />
-                      </div>
-                    </div>
-                    <div className={styles.partition}>
-                      <div className={styles.partitionHead}>
-                        <span className={styles.partitionName}>Categories</span>
-                      </div>
-                      <ul className={styles.categoriesList}>
-                        {articlesCategories.map(category => (
-                          <li className={styles.categoriesItem} key={category}>
-                            <a className={styles.categoriesLink} href="javascript: void(0);">
-                              {category}
-                            </a>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
                     <div className={styles.partition}>
                       <div className={styles.partitionHead}>
                         <span className={styles.partitionName}>Latest post</span>
@@ -188,4 +154,4 @@ class BlogFeed extends React.Component {
   }
 }
 
-export default BlogFeed
+export default DashboardTestimonials
