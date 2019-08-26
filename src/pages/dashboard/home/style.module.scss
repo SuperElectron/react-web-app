@@ -3,84 +3,137 @@
 @import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
 
+/* Color pallet: https://www.color-hex.com/color-palette/82115   */
+/*  
+https://colorhunt.co/ 
+https://colorhunt.co/palette/137720
+
+*/
+h1 {
+  font-family: 'Tangerine', sans-serif;
+  font-size: 80px;
+  text-align: center;
+  // border: 2px blue dotted;
+  text-align: center;
+}
+h2 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  // border: 2px green dotted;
+  text-align: center;
+}
+p, ul, li {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  // border: 2px teal dotted;
+}
+
 /* Landing Banner at top of the page */
 .landing {
   position: relative;
   padding: 5% 5% 5% 5%;
   overflow: visible;
-  border: 5px red dotted;
+  // background-color: #f381e5;
+  // border: 5px red dotted;
 }
-.landing h1, .landing h2, .landing p {
+.landing h1, .landing p {
   position: relative;
   overflow: visible;
-  border: 5px red dotted;
+  // border: 5px red dotted;
   text-align: center;
 }
 .landing h1 {
-  font-size: 50px;
-  font-family: 'Titillium Web', sans-serif;
-}
-.landing h2 {
-  font-family: 'Tangerine', sans-serif;
-  font-size: 80px;
   text-shadow: 4px 4px 4px #aaa;
+  font-size: 100px;
 }
 .landing p {
-  font-family: 'Titillium Web', sans-serif;
   font-size: 20px;
-  // text-shadow: 4px 4px 4px #aaa;
 }
 
 /* Introduction to website */
 .introduction {
   position: relative;
+  grid-template-rows: 70px auto;
   height: 600px;
   padding: 5% 5% 5% 5%;
-  border: 5px red dotted;
-  background-color: rgba(150, 169, 169, 0.734);
-  font-family: 'Titillium Web', sans-serif;
-}
-.introduction h1 {
-  font-size: 50px;
-  font-weight: bold;
+  // border: 3px red dotted;
+  background-color: #2e8cea;
 }
 .introduction p {
-  font-size: 30px;
-  font-weight: bold;
+  color: #fffa67;
 }
 
-/* Body section of the page (i.e. the hook) */
-.body {
-  border: 5px red dotted;
-  font-family: 'Titillium Web', sans-serif;
+/* Mission Statement text block */
+.mission {
+  position: relative;
+  grid-template-rows: 70px auto;
+  height: 600px;
+  padding: 5% 5% 5% 5%;
+  background-color: #fffa67;
+  // border: 3px blue solid;
 }
-.body p, .body h1 {
-  border: 5px red dotted;
-  padding: 5px 5px px 5px;
+
+.mission p {
+  text-align: left;
+  color: #2e8cea;
 }
-.body h1 {
-  font-size: 40px;
+/* Services block */
+.services {
+  column-count: 2;
+  // border: 3px blue solid;
 }
-.body h2 {
-  font-size: 40px;
+.services ul {
+  // border: 2px green dotted;
+  text-align: center;
+  color: #d34848;
+
+  list-style-position: inside;
 }
-.body p {
-  font-size: 40px;
+.services li {
+  // border: 2px green dotted;
+  text-align: left;
+  padding: 5px 5px 5px 5px;
 }
+// .services p {
+//   // border: 2px orange dotted;
+// }
+.img1 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border:2px solid #fff;
+  padding: 5px;
+}
+.img2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border:2px solid #fff;
+  padding: 5px;
+
+  // border-radius: 10px;
+}
+
+/* List styling : styling bullet points  */
+// .management {
+//    list-style-image: `url(${require('https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/0023/3397/brand.gif?itok=5zWVAsvf')})`
+// }
 
 /* Video section located at the bottom of the page */
 .videoBox {
-  position:relative;
-  padding-bottom: 40%;
-  padding-top:10px;
+  position: relative;
+  padding-bottom: 45%;
+  padding-top: 10px;
   height: 0;
-  border: 5px red dotted;
+  // border: 5px red solid;
 }
 
 .videoBox iframe, .videoBox object, .videoBox embed {
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }

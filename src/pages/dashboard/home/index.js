@@ -1,10 +1,11 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
-import Authorize from 'components/LayoutComponents/Authorize'
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import Authorize from 'components/LayoutComponents/Authorize';
 import {Divider} from 'antd';
 import YouTube from 'react-youtube';
-import styles from './style.module.scss'
 
+import data from './data.json'
+import styles from './style.module.scss';
 
 // const { Paragraph } = Typography;
 
@@ -26,42 +27,52 @@ class DashboardHome extends React.Component {
         <section className="card" border-radius="25px">
           <div className={styles.landing}>
             <p>INTRODUCING</p>
-            <h2>Okanagan Getaway</h2>
-            <p strong>VACATION REAL-ESTATE MANAGEMENT</p>
+            <h1>Okanagan Getaway</h1>
           </div>
 
-          <Divider />
+          <Divider><h2>Vacation Real-Estate Management</h2></Divider>
 
           <div className={styles.introduction}>
-            <h1 strong>
-            Title
-            </h1>
-            
             <p>
-            Body superhost
-            </p>
-            
-            <p>
-            Body2 Mission statement
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
             
           </div>
 
-          <div className={styles.body}>
-            <h1 strong>
-            Title: services offered (rental units, rental management)
-            </h1>
-            
+          <Divider><h2>Mission Statement</h2></Divider>
+          <div className={styles.mission}>
             <p>
-            Body: Summary of full services offered
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.
             </p>
-            
+          </div>
+          
+          <Divider><h2>Management Services</h2></Divider>
+
+          <div className={styles.services}>
+            <img className={styles.img1} src={data.images[0]} alt="missing" float="left" />
             <p>
-            End: point to sidebar to see more.  Arrow to view video below.
+              <ul>
+                <li>Marketing</li>
+                <li>Day-to-day Management</li>
+                <li>Cleaning</li>
+                <li>Financial Reporting</li>
+              </ul>
             </p>
           </div>
 
-          <Divider />
+          <Divider><h2>Rental Properties</h2></Divider>
+          
+          <div className={styles.services}>
+            <p>
+              <ul>
+                <li>Discovery Bay</li>
+                <li>Playa Del Sol</li>
+              </ul>
+            </p>
+            <img className={styles.img2} src={data.images[1]} alt="missing" />
+          </div>
+
+          <Divider><h2>Kelowna: The Ultimate Getaway Location</h2></Divider>
 
           <div className={styles.videoBox}>
             <YouTube
