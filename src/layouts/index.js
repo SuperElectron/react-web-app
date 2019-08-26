@@ -8,6 +8,7 @@ import PublicLayout from './Public'
 import LoginLayout from './Login'
 import MainLayout from './Main'
 
+
 const Layouts = {
   public: PublicLayout,
   login: LoginLayout,
@@ -80,7 +81,7 @@ class IndexLayout extends React.PureComponent {
 
     return (
       <Fragment>
-        <Helmet titleTemplate="Clean UI | %s" title="React Admin Template" />
+        <Helmet titleTemplate="Kesh's Site | %s" title="React Admin Template" />
         {BootstrappedLayout()}
       </Fragment>
     )

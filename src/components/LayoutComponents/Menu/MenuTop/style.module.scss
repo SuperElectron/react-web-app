@@ -36,7 +36,11 @@
 .logo {
   height: 48px;
   width: 200px;
-  background: $menuBg-darken;
+  // background: $menuBg-darken;
+  background: menuBg;
+  overflow: hidden;
+  border-right: 1px ridge;
+  border-right-color: #292b2d;
   float: left;
 }
 

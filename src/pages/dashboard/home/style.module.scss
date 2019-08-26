@@ -1,0 +1,86 @@
+@import 'assets/styles/mixins.scss';
+
+@import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+/* Landing Banner at top of the page */
+.landing {
+  position: relative;
+  padding: 5% 5% 5% 5%;
+  overflow: visible;
+  border: 5px red dotted;
+}
+.landing h1, .landing h2, .landing p {
+  position: relative;
+  overflow: visible;
+  border: 5px red dotted;
+  text-align: center;
+}
+.landing h1 {
+  font-size: 50px;
+  font-family: 'Titillium Web', sans-serif;
+}
+.landing h2 {
+  font-family: 'Tangerine', sans-serif;
+  font-size: 80px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+.landing p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  // text-shadow: 4px 4px 4px #aaa;
+}
+
+/* Introduction to website */
+.introduction {
+  position: relative;
+  height: 600px;
+  padding: 5% 5% 5% 5%;
+  border: 5px red dotted;
+  background-color: rgba(150, 169, 169, 0.734);
+  font-family: 'Titillium Web', sans-serif;
+}
+.introduction h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.introduction p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Body section of the page (i.e. the hook) */
+.body {
+  border: 5px red dotted;
+  font-family: 'Titillium Web', sans-serif;
+}
+.body p, .body h1 {
+  border: 5px red dotted;
+  padding: 5px 5px px 5px;
+}
+.body h1 {
+  font-size: 40px;
+}
+.body h2 {
+  font-size: 40px;
+}
+.body p {
+  font-size: 40px;
+}
+
+/* Video section located at the bottom of the page */
+.videoBox {
+  position:relative;
+  padding-bottom: 40%;
+  padding-top:10px;
+  height: 0;
+  border: 5px red dotted;
+}
+
+.videoBox iframe, .videoBox object, .videoBox embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}

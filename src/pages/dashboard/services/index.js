@@ -74,7 +74,7 @@ class DashboardService extends React.Component {
 
     return (
       <Authorize roles={['admin']} redirect to="/dashboard/home">
-        <Helmet title="Dashboard Service" />
+        <Helmet title="Service" />
         <Title>Services</Title>
         <Text strong>Vacation Real-Estate Management Made Easy</Text>
         <Divider />

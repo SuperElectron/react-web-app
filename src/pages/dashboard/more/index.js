@@ -5,7 +5,7 @@ class Typography extends React.Component {
   render() {
     return (
       <div>
-        <Helmet title="Typography" />
+        <Helmet title="more" />
         <section className="card">
           <div className="card-header">
             <div className="utils__title">

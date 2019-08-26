@@ -1,32 +1,10 @@
 {
-    "tableData": [
+    "introduction": [
       {
-        "key": "1",
-        "name": "Damon",
-        "position": "5516 Adolfo Green",
-        "office": "Littelhaven",
-        "age": 18,
-        "date": "2014/06/13",
-        "salary": 553.536
-      },
-      {
-        "key": "2",
-        "name": "Miracle",
-        "position": "176 Hirthe Squares",
-        "office": "Ryleetown",
-        "age": 35,
-        "date": "2013/09/27",
-        "salary": 784.802
-      },
-      {
-        "key": "3",
-        "name": "Torrey",
-        "position": "1995 Richie Neck",
-        "office": "West Sedrickstad",
-        "age": 15,
-        "date": "2014/09/12",
-        "salary": 344.302
+        "title": "We offer two services: rentals | management ",
+        "body": "We are excited to offer you seasonal accommodations and vacation rentals in some of the best resorts Kelowna has to offer.  Whether you want to be right downtown along the waterfront or in the trendy Mission we have something that will make your vacation or business trip to Kelowna great!",
+        "body2": "Our suites are fully stocked with everything you need. We supply each unit with high quality linens and towels, we stock all the essentials like shampoo, conditioner, and soaps. In the kitchen we provide coffee and tea, sugar, salt, pepper, ketchup, mustard and cooking oil. The kitchen also has everything you need to prepare your own meals, you just bring your favorite foods.  Our goal is to provide you with a stress free Okanagan Getaway at our amazing Resorts.",
+        "end": "The Vacation Rentals we provide are sparkling clean and are perfect for families or business professionals.  We hope that you will consider staying with us on your next trip to Kelowna."
       }
     ]
-  }
-  
+}

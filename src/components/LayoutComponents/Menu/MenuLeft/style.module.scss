@@ -68,13 +68,17 @@
 
 .logo {
   height: 64px;
-  background: $menuBg-darken;
+  // background: $menuBg-darken;
+  background: menuBg;
   overflow: hidden;
+  border-bottom: 1px ridge;
+  border-bottom-color: #292b2d;
 }
 
 .logoContainer {
   height: 64px;
-  padding: 13px 20px 15px 22px;
+  padding: 13px 20px 15px 12px;
+  align: center;
   img {
     height: 36px;
   }

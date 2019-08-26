@@ -18,7 +18,7 @@ class DashboardTestimonials extends React.Component {
     const { articlesData, latesArticlesData } = this.state
     return (
       <div>
-        <Helmet title="Dashboards Testimonials" />
+        <Helmet title="Testimonials" />
         <section className="card">
           <div className="card-header">
             <Title>Testimonials</Title>
