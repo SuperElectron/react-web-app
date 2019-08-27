@@ -142,7 +142,7 @@ class MenuTop extends React.Component {
       <div>
         <div className={styles.logo}>
           <div className={styles.logoContainer}>
-            <img src="https://static.wixstatic.com/media/7d8a34_d013069531184d7f8a048120b8cefaa5~mv2.png/v1/crop/x_0,y_2,w_201,h_121/fill/w_220,h_132,al_c,lg_1/7d8a34_d013069531184d7f8a048120b8cefaa5~mv2.png" alt="logo" />
+            <img src="/resources/images/okanagan_getaways/okanagan_getaways_logo.svg" alt="logo" />
           </div>
         </div>
         <Menu

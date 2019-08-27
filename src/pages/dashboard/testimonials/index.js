@@ -24,11 +24,15 @@ class DashboardTestimonials extends React.Component {
             <Title>Testimonials</Title>
             <Text strong>Vacation Real-Estate Management Made Easy</Text>
           </div>
+          
           <Divider />
+          
           <div className="card-body">
             <div className={styles.blogFeed}>
               <div className="row">
+
                 <div className="col-lg-8">
+                  
                   <main>
                     {articlesData.map(article => (
                       <article className={styles.article} key={article.author}>
@@ -92,16 +96,20 @@ class DashboardTestimonials extends React.Component {
                       </article>
                     ))}
                   </main>
+
                   <div className="mb-5">
                     <Pagination defaultCurrent={1} total={50} />
                   </div>
                 </div>
+
                 <div className="col-lg-4">
                   <aside className={styles.sidebar}>
+
                     <div className={styles.partition}>
                       <div className={styles.partitionHead}>
                         <span className={styles.partitionName}>Latest post</span>
                       </div>
+
                       {latesArticlesData.map(latestArticle => (
                         <article className={styles.latestPost} key={latestArticle.name}>
                           <div className={styles.latestImg}>
@@ -130,6 +138,7 @@ class DashboardTestimonials extends React.Component {
                           </div>
                         </article>
                       ))}
+
                     </div>
                     <div className={styles.partition}>
                       <div className={styles.partitionHead}>
@@ -144,6 +153,7 @@ class DashboardTestimonials extends React.Component {
                       </div>
                     </div>
                   </aside>
+                  
                 </div>
               </div>
             </div>
