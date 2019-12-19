@@ -2,16 +2,27 @@
 
 * Install latest node.js: https://nodejs.org​
 * Install latest yarn package manager: https://yarnpkg.com/​
-* yarn install
-* yarn add react-loadable
+```bash
+$ yarn install
+$ yarn add react-loadable
+```
 
 ## Starting the App
-* Run the app `yarn start`
-* For build production files use `yarn build` (build to /build/ folder)
+* Run the app 
+```bash
+$ yarn start
+```
+* For build production files (build to /build)
+```bash
+$ yarn build
+```
+
 
 ## Reference
 https://facebook.github.io/create-react-app/ (create-react-app)
+
 https://docs.cleanuitemplate.com/react/documentation/create-react-app/ (cleanui)
+
 https://ant.design/docs/react/introduce (Ant Design)
 
 ## Configuring 
